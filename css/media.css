@@ -1,0 +1,263 @@
+@media (max-width: 1200px) {
+  /* line 3, ../../../Desktop/programming/Big project/src/sass/media.sass */
+  .menu_item {
+    padding-right: 20px;
+  }
+  /* line 5, ../../../Desktop/programming/Big project/src/sass/media.sass */
+  .menu_link {
+    font-size: 13px;
+  }
+  /* line 8, ../../../Desktop/programming/Big project/src/sass/media.sass */
+  .promo_header {
+    font-size: 50px;
+  }
+  /* line 11, ../../../Desktop/programming/Big project/src/sass/media.sass */
+  .reasons_block {
+    align-items: flex-start;
+  }
+  /* line 13, ../../../Desktop/programming/Big project/src/sass/media.sass */
+  .reasons_descr {
+    width: 300px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 17, ../../../Desktop/programming/Big project/src/sass/media.sass */
+  .menu_item {
+    padding-right: 8px;
+  }
+  /* line 19, ../../../Desktop/programming/Big project/src/sass/media.sass */
+  .menu_link {
+    font-size: 10px;
+  }
+  /* line 23, ../../../Desktop/programming/Big project/src/sass/media.sass */
+  .subheader_logo img {
+    width: 100%;
+  }
+  /* line 25, ../../../Desktop/programming/Big project/src/sass/media.sass */
+  .subheader_official {
+    font-size: 11px;
+  }
+  /* line 27, ../../../Desktop/programming/Big project/src/sass/media.sass */
+  .subheader_phone {
+    font-size: 18px;
+  }
+  /* line 29, ../../../Desktop/programming/Big project/src/sass/media.sass */
+  .subheader_btn {
+    margin-top: 21px;
+    height: 40px;
+    width: 100%;
+  }
+  /* line 34, ../../../Desktop/programming/Big project/src/sass/media.sass */
+  .promo_header {
+    font-size: 40px;
+  }
+  /* line 36, ../../../Desktop/programming/Big project/src/sass/media.sass */
+  .promo_subheader {
+    font-size: 30px;
+  }
+  /* line 39, ../../../Desktop/programming/Big project/src/sass/media.sass */
+  .reasons_block {
+    flex-direction: column;
+    align-items: center;
+  }
+  /* line 42, ../../../Desktop/programming/Big project/src/sass/media.sass */
+  .reasons_round {
+    margin-right: 0;
+  }
+  /* line 44, ../../../Desktop/programming/Big project/src/sass/media.sass */
+  .reasons_descr {
+    width: 300px;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 49, ../../../Desktop/programming/Big project/src/sass/media.sass */
+  .menu {
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: -100%;
+    width: 50%;
+    height: 100vh;
+    padding: 20px 15px;
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: 0.6s all;
+  }
+  /* line 61, ../../../Desktop/programming/Big project/src/sass/media.sass */
+  .menu_active {
+    left: 0;
+  }
+  /* line 63, ../../../Desktop/programming/Big project/src/sass/media.sass */
+  .menu_item {
+    padding-right: 0;
+    border: none;
+  }
+  /* line 66, ../../../Desktop/programming/Big project/src/sass/media.sass */
+  .menu_link {
+    font-style: 20px;
+  }
+  /* line 68, ../../../Desktop/programming/Big project/src/sass/media.sass */
+  .hamburger {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 26px;
+    height: 12px;
+  }
+  /* line 76, ../../../Desktop/programming/Big project/src/sass/media.sass */
+  .hamburger span {
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 2px;
+  }
+  /* line 84, ../../../Desktop/programming/Big project/src/sass/media.sass */
+  .hamburger_active span:nth-child(1) {
+    transform: rotate(-45deg);
+  }
+  /* line 86, ../../../Desktop/programming/Big project/src/sass/media.sass */
+  .hamburger_active span:nth-child(2) {
+    display: none;
+  }
+  /* line 88, ../../../Desktop/programming/Big project/src/sass/media.sass */
+  .hamburger_active span:nth-child(3) {
+    transform: rotate(45deg);
+  }
+  /* line 90, ../../../Desktop/programming/Big project/src/sass/media.sass */
+  .xs-hidden {
+    display: none;
+  }
+  /* line 92, ../../../Desktop/programming/Big project/src/sass/media.sass */
+  .xs-visible {
+    display: block;
+  }
+  /* line 95, ../../../Desktop/programming/Big project/src/sass/media.sass */
+  .subheader_phone {
+    display: block;
+    margin-top: 10px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  /* line 103, ../../../Desktop/programming/Big project/src/sass/media.sass */
+  .subheader_btn {
+    display: block;
+    width: 200px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  /* line 110, ../../../Desktop/programming/Big project/src/sass/media.sass */
+  .promo_header {
+    line-height: 45px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 113, ../../../Desktop/programming/Big project/src/sass/media.sass */
+  nav {
+    height: 30px;
+  }
+  /* line 115, ../../../Desktop/programming/Big project/src/sass/media.sass */
+  header {
+    height: 30px;
+  }
+  /* line 117, ../../../Desktop/programming/Big project/src/sass/media.sass */
+  .subheader {
+    height: 16px;
+    top: 30px;
+  }
+  /* line 120, ../../../Desktop/programming/Big project/src/sass/media.sass */
+  .subheader_official {
+    display: none;
+  }
+  /* line 122, ../../../Desktop/programming/Big project/src/sass/media.sass */
+  .subheader_logo {
+    margin-top: 16px;
+  }
+  /* line 124, ../../../Desktop/programming/Big project/src/sass/media.sass */
+  .subheader_phone {
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 11px;
+  }
+  /* line 129, ../../../Desktop/programming/Big project/src/sass/media.sass */
+  .subheader_btn {
+    width: 110px;
+    height: 22px;
+    font-size: 10px;
+    margin-top: 6px;
+  }
+  /* line 134, ../../../Desktop/programming/Big project/src/sass/media.sass */
+  .promo {
+    min-height: 400px;
+    padding: 93px 0 35px 0;
+  }
+  /* line 137, ../../../Desktop/programming/Big project/src/sass/media.sass */
+  .promo_descr {
+    display: none;
+  }
+  /* line 139, ../../../Desktop/programming/Big project/src/sass/media.sass */
+  .promo_header {
+    font-size: 30px;
+    padding: 0 24px;
+    line-height: 35px;
+  }
+  /* line 143, ../../../Desktop/programming/Big project/src/sass/media.sass */
+  .promo_subheader {
+    font-size: 20px;
+    margin-top: 33px;
+    padding: 0 10px;
+    line-height: 30px;
+  }
+  /* line 148, ../../../Desktop/programming/Big project/src/sass/media.sass */
+  .promo_btn {
+    width: 210px;
+    height: 50px;
+    margin-top: 72px;
+  }
+  /* line 152, ../../../Desktop/programming/Big project/src/sass/media.sass */
+  .menu {
+    width: 85%;
+  }
+  /* line 154, ../../../Desktop/programming/Big project/src/sass/media.sass */
+  .reasons {
+    padding: 22px 0 36px 0;
+  }
+  /* line 156, ../../../Desktop/programming/Big project/src/sass/media.sass */
+  .reasons_block {
+    margin-top: 26px;
+  }
+  /* line 158, ../../../Desktop/programming/Big project/src/sass/media.sass */
+  .reasons_round {
+    width: 100px;
+    height: 100px;
+  }
+  /* line 161, ../../../Desktop/programming/Big project/src/sass/media.sass */
+  .reasons_descr {
+    width: 100%;
+    margin-top: 27px;
+  }
+  /* line 164, ../../../Desktop/programming/Big project/src/sass/media.sass */
+  .reasons_subtitle {
+    font-size: 16px;
+  }
+  /* line 167, ../../../Desktop/programming/Big project/src/sass/media.sass */
+  .title {
+    font-size: 16px;
+    margin-top: 15px;
+    line-height: 16px;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */
